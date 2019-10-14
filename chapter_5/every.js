@@ -6,6 +6,8 @@ const everyCycle = (arr, f) => {
 };
 everyCycle([7, 6, 3, 8], el => !(el > 5));
 
+
+
 const everySome = (arr, f) => {
   if (arr.some(f)) return false;
   else return true;
